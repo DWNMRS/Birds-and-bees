@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>birdsandbees</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./assets/style/reset.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="./assets/style/style.min.css" rel="stylesheet" type="text/css">
+  <link href="./assets/style/media.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"
+    type='text/css'>
+</head>
+
+
+<body>
+  <div class="sidebar">
+    <div class="sidebar-menu">
+      <div class="sidebar-menu__item">
+        <a href="#" class="sidebar-menu__btn sidebar-menu__btn--rest">
+          <span class="sidebar-menu__btn-name">Ресторан</span>
+        </a>
+      </div>
+      <div class="sidebar-menu__item">
+        <a href="#" class="sidebar-menu__btn sidebar-menu__btn--mic">
+          <span class="sidebar-menu__btn-name">Караоке</span>
+        </a>
+      </div>
+      <div class="sidebar-menu__item">
+        <a href="#" class="sidebar-menu__btn sidebar-menu__btn--bear">
+          <span class="sidebar-menu__btn-name">Детский клуб</span>
+        </a>
+      </div>
+      <div class="sidebar-menu__item">
+        <a href="#" class="sidebar-menu__btn sidebar-menu__btn--park">
+          <span class="sidebar-menu__btn-name">Веревочный парк</span>
+        </a>
+      </div>
+      <div class="sidebar-menu__item">
+        <a href="#" class="sidebar-menu__btn sidebar-menu__btn--pool">
+          <span class="sidebar-menu__btn-name">Бассейн</span>
+        </a>
+      </div>
+      <div class="sidebar-menu__item">
+        <a href="#" class="sidebar-menu__btn sidebar-menu__btn--hotel">
+          <span class="sidebar-menu__btn-name">Отель</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="sidebar-social">
+      <div class="sidebar-social__item">
+        <a class="sidebar-social__link sidebar-social__link--vk" href="#"></a>
+        <a class="sidebar-social__link-name" href="#">ВКонтакте</a>
+      </div>
+      <div class="sidebar-social__item">
+        <a class="sidebar-social__link sidebar-social__link--inst" href="#"></a>
+        <a class="sidebar-social__link-name" href="#">Instagram</a>
+      </div>
+      <div class="sidebar-social__item">
+        <a class="sidebar-social__link sidebar-social__link--fb" href="#"></a>
+        <a class="sidebar-social__link-name" href="#">Facebook</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="sidebar--mob">
+    <div class="sidebar-wrap--mob">
+      <div class="sidebar-menu--mob">
+        <a href="#" class="sidebar-menu__item--mob">Меню/доставка</a>
+        <a href="#" class="sidebar-menu__item--mob">Банкеты</a>
+        <a href="#" class="sidebar-menu__item--mob">Свадьбы</a>
+        <a href="#" class="sidebar-menu__item--mob">Для детей</a>
+        <a href="#" class="sidebar-menu__item--mob">Фотоотчеты</a>
+        <a href="#" class="sidebar-menu__item--mob">Торты</a>
+        <a href="#" class="sidebar-menu__item--mob">Отзывы</a>
+        <a href="#" class="sidebar-menu__item--mob">Контакты</a>
+      </div>
+      <div class="sidebar-menu__contacts--mob">
+        <div class="numbers-phone">
+          <a href="tel:+79252253838" class="first-number">7 (925) 225-38-38</a>
+          <a href="tel:+79252253838" class="second-number">7 (495) 225-38-38</a>
+        </div>
+        <div class="sidebar__btn-reserve--mob">
+          <a class="btn btn--yellow" href="#">Забронировать</a>
+        </div>
+      </div>
+      <div class="sidebar-menu__link--mob">
+        <div class="sidebar-menu__link-uds--mob"></div>
+        <div class="sidebar-menu__link-d3--mob"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="page">
+    <section class="home">
+      <div class="sidebar__btn-wrap--mob">
+        <div class="sidebar__btn--mob"></div>
+      </div>
+      <header class="header">
+        <div class="container">
+          <div class="header__section">
+            <div class="header-wrap header-wrap--left">
+              <div class="header__numbers-phone">
+                <div class="numbers-phone">
+                  <a href="tel:+79252253838" class="first-number">7 (925) 225-38-38</a>
+                  <a href="tel:+79252253838" class="second-number">7 (495) 225-38-38</a>
+                </div>
+              </div>
+              <div class="header__uds">
+                <a class="uds" href="#">
+                  <img src="./assets/img/icons/header/uds.svg" alt="uds">
+                </a>
+              </div>
+            </div>
+
+            <img class="logo-bnb" src="./assets/img/icons/header/logobirdsandbees.svg" alt="BirdsAndBees">
+            <div class="header-wrap header-wrap--right">
+              <div class="header__ddd">
+                <a><img src="./assets/img/icons/header/3d.svg"></a>
+              </div>
+              <div class="header__basket">
+                <a class="basket"><img src="./assets/img/icons/header/basketempty.svg">
+                  <div class="background-counter">99</div>
+                </a>
+              </div>
+              <div class="header__btn">
+                <a class="btn btn--yellow" href="#">Забронировать</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="header__section header__menu">
+            <a href="#">Меню/доставка</a>
+            <div class="dot"></div>
+            <a href="#">Банкеты</a>
+            <div class="dot"></div>
+            <a href="#">Свадьбы</a>
+            <div class="dot"></div>
+            <a href="#">Для детей</a>
+            <div class="dot"></div>
+            <a href="#">Фотоотчеты</a>
+            <div class="dot"></div>
+            <a href="#">Торты</a>
+            <div class="dot"></div>
+            <a href="#">Отзывы</a>
+            <div class="dot"></div>
+            <a href="#">Контакты</a>
+          </div>
+        </div>
+      </header>
+
+
+
+      <div class="home-slider">
+        <div class="swiper-wrapper">
+
+
+          <div class="swiper-slide">
+            <img class="home-background" src="./assets/img/home/rest.png" alt="">
+            <div class="swiper-slide__service">
+              <div class="service">
+                <span class="service__name">Ресторан</span>
+                <span class="service__description">Идеальное место для вашего праздника!</span>
+                <div class="service__schedule">
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПН — ЧТ</span>
+                    <span class="schedule__working-hours">10:00 — 00:00</span>
+                  </div>
+
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПТ — СБ</span>
+                    <span class="schedule__working-hours">Круглосуточно</span>
+                  </div>
+                </div>
+
+                <div class="schedule__btn-wrap wrap">
+                  <a class="btn btn--yellow" href="#">Забронировать</a>
+                  <a class="btn btn--grey" href="#">Подробнее</a>
+                </div>
+                <div class="home-slider__btns wrap">
+                  <button class="btn-slider home-slider__btn-prev"><img src="./assets/img/icons/home/tuda.svg"
+                      alt=""></button>
+                  <button class="btn-slider home-slider__btn-next"><img src="./assets/img/icons/home/suda.svg"
+                      alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="home-background" src="./assets/img/home/karaoke.png" alt="">
+            <div class="swiper-slide__service">
+              <div class="service">
+                <span class="service__name">Караоке-бар</span>
+                <span class="service__description">Идеальное место для вашего праздника!</span>
+                <div class="service__schedule">
+
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПТ — СБ</span>
+                    <span class="schedule__working-hours">с 21:00</span>
+                  </div>
+                </div>
+
+                <div class="schedule__btn-wrap wrap">
+                  <a class="btn btn--yellow" href="#">Забронировать</a>
+                  <a class="btn btn--grey" href="#">Подробнее</a>
+                </div>
+                <div class="home-slider__btns wrap">
+                  <button class="btn-slider home-slider__btn-prev"><img src="./assets/img/icons/home/tuda.svg"
+                      alt=""></button>
+                  <button class="btn-slider home-slider__btn-next"><img src="./assets/img/icons/home/suda.svg"
+                      alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="home-background" src="./assets/img/home/baby-club.png" alt="">
+            <div class="swiper-slide__service">
+              <div class="service">
+                <span class="service__name">Детский клуб</span>
+                <span class="service__description">Идеальное место для вашего праздника!</span>
+                <div class="service__schedule">
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПН — ЧТ</span>
+                    <span class="schedule__working-hours">10:00 — 00:00</span>
+                  </div>
+
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПТ — СБ</span>
+                    <span class="schedule__working-hours">Круглосуточно</span>
+                  </div>
+                </div>
+
+                <div class="schedule__btn-wrap wrap">
+                  <a class="btn btn--yellow" href="#">Забронировать</a>
+                  <a class="btn btn--grey" href="#">Подробнее</a>
+                </div>
+                <div class="home-slider__btns wrap">
+                  <button class="btn-slider home-slider__btn-prev"><img src="./assets/img/icons/home/tuda.svg"
+                      alt=""></button>
+                  <button class="btn-slider home-slider__btn-next"><img src="./assets/img/icons/home/suda.svg"
+                      alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="home-background" src="./assets/img/home/rope-park.png" alt="">
+            <div class="swiper-slide__service">
+              <div class="service">
+                <span class="service__name">Веревочный парк</span>
+                <span class="service__description">Идеальное место для вашего праздника!</span>
+                <div class="service__schedule">
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПН — ЧТ</span>
+                    <span class="schedule__working-hours">10:00 — 00:00</span>
+                  </div>
+
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПТ — СБ</span>
+                    <span class="schedule__working-hours">Круглосуточно</span>
+                  </div>
+                </div>
+
+                <div class="schedule__btn-wrap wrap">
+                  <a class="btn btn--yellow" href="#">Забронировать</a>
+                  <a class="btn btn--grey" href="#">Подробнее</a>
+                </div>
+                <div class="home-slider__btns wrap">
+                  <button class="btn-slider home-slider__btn-prev"><img src="./assets/img/icons/home/tuda.svg"
+                      alt=""></button>
+                  <button class="btn-slider home-slider__btn-next"><img src="./assets/img/icons/home/suda.svg"
+                      alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="home-background" src="./assets/img/home/pool.png" alt="">
+            <div class="swiper-slide__service">
+              <div class="service">
+                <span class="service__name">Бассейн</span>
+                <span class="service__description">Идеальное место для вашего праздника!</span>
+                <div class="service__schedule">
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПН — ЧТ</span>
+                    <span class="schedule__working-hours">10:00 — 00:00</span>
+                  </div>
+
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПТ — СБ</span>
+                    <span class="schedule__working-hours">Круглосуточно</span>
+                  </div>
+                </div>
+
+                <div class="schedule__btn-wrap wrap">
+                  <a class="btn btn--yellow" href="#">Забронировать</a>
+                  <a class="btn btn--grey" href="#">Подробнее</a>
+                </div>
+                <div class="home-slider__btns wrap">
+                  <button class="btn-slider home-slider__btn-prev"><img src="./assets/img/icons/home/tuda.svg"
+                      alt=""></button>
+                  <button class="btn-slider home-slider__btn-next"><img src="./assets/img/icons/home/suda.svg"
+                      alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="home-background" src="./assets/img/home/hotel.png" alt="">
+            <div class="swiper-slide__service">
+              <div class="service">
+                <span class="service__name">Отель</span>
+                <span class="service__description">Идеальное место для вашего праздника!</span>
+                <div class="service__schedule">
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПН — ЧТ</span>
+                    <span class="schedule__working-hours">10:00 — 00:00</span>
+                  </div>
+
+                  <div class="schedule">
+                    <span class="schedule__working-day">ПТ — СБ</span>
+                    <span class="schedule__working-hours">Круглосуточно</span>
+                  </div>
+                </div>
+
+                <div class="schedule__btn-wrap wrap">
+                  <a class="btn btn--yellow" href="#">Забронировать</a>
+                  <a class="btn btn--grey" href="#">Подробнее</a>
+                </div>
+                <div class="home-slider__btns wrap">
+                  <button class="btn-slider home-slider__btn-prev"><img src="./assets/img/icons/home/tuda.svg"
+                      alt=""></button>
+                  <button class="btn-slider home-slider__btn-next"><img src="./assets/img/icons/home/suda.svg"
+                      alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="services-navigation">
+        <div class="container">
+
+          <div class="services-menu wrap">
+            <a class="services-menu__item services-menu__item--active" href="#"><img class="item-img"
+                src="./assets/img/icons/bottommenu/rest.svg">
+              <p class="item-name">Ресторан</p>
+            </a>
+            <a class="services-menu__item" href="#"><img class="item-img" src="./assets/img/icons/bottommenu/mic.svg">
+              <p class="item-name">Караоке</p>
+            </a>
+            <a class="services-menu__item" href="#"><img class="item-img" src="./assets/img/icons/bottommenu/bear.svg">
+              <p class="item-name">Детский клуб</p>
+            </a>
+            <a class="services-menu__item" href="#"><img class="item-img" src="./assets/img/icons/bottommenu/park.svg">
+              <p class="item-name">Веревочный парк</p>
+            </a>
+            <a class="services-menu__item" href="#"><img class="item-img" src="./assets/img/icons/bottommenu/pool.svg">
+              <p class="item-name">Бассейн</p>
+            </a>
+            <a class="services-menu__item" href="#"><img class="item-img" src="./assets/img/icons/bottommenu/hotel.svg">
+              <p class="item-name">Отель</p>
+            </a>
+          </div>
+          <div class="services-menu--mob"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="events">
+      <div class="container">
+        <div class="wrap wrap--title">
+          <span>Мероприятия у нас</span>
+          <div class="wrap">
+            <button class="btn-slider btn-slider--prev"><img src="./assets/img/icons/events/tudablack.svg" alt=""></button>
+            <button class="btn-slider btn-slider--next"><img src="./assets/img/icons/events/sudablack.svg" alt=""></button>
+          </div>
+        </div>
+        <div class="events-slider">
+          <div class="swiper-wrapper">
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Corp.jpg">
+              <span class="events-item__name">Корпоративы</span>
+            </a>
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Graduation.jpg">
+              <span class="events-item__name">Выпускные</span>
+            </a>
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Marry.jpg">
+              <span class="events-item__name">Свадьбы</span>
+            </a>
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Baby shower.jpg">
+              <span class="events-item__name">Baby Shower</span>
+            </a>
+          </div>
+        </div>
+        <div class="events-scroll"></div>
+      </div>
+    </div>
+
+    <div class=" events events--mob">
+      <div class="container">
+        <div class="wrap wrap--title">
+          <span>Мероприятия у нас</span>
+          <div class="wrap">
+            <button class="btn-slider btn-slider--prev"><img src="./assets/img/icons/events/tudablack.svg" alt=""></button>
+            <button class="btn-slider btn-slider--next"><img src="./assets/img/icons/events/sudablack.svg" alt=""></button>
+          </div>
+        </div>
+        <div class="events-slider--mob">
+          <div class="swiper-wrapper">
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Corp.jpg">
+              <span class="events-item__name">Корпоративы</span>
+            </a>
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Graduation.jpg">
+              <span class="events-item__name">Выпускные</span>
+            </a>
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Marry.jpg">
+              <span class="events-item__name">Свадьбы</span>
+            </a>
+            <a class="events-item swiper-slide" href="#"><img class="events-item__img"
+                src="./assets/img/events/Baby shower.jpg">
+              <span class="events-item__name">Baby Shower</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="halls">
+      <div class="container">
+        <div class="wrap wrap--title">
+          <span>Наши Залы</span>
+        </div>
+
+        <div class="halls-menu">
+          <div class="halls-menu__item">
+            Все
+          </div>
+          <div class="halls-menu__item">
+            Банкетные
+          </div>
+          <div class="halls-menu__item">
+            Общие
+          </div>
+          <div class="halls-menu__item">
+            Индивидуальные
+          </div>
+          <div class="halls-menu__item">
+            Караоке
+          </div>
+
+          <div class="halls-menu__point"></div>
+
+        </div>
+
+
+        <div class="halls-tabs">
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--big-hall">
+            <span class="hall-capacity">ДО 100 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Большой Банкетный</span>
+              <span class="hall-description">Роскошный банкетный зал в мягком классическом дизайне.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--gold-room">
+            <span class="hall-capacity">ДО 12 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Золотая Комната</span>
+              <span class="hall-description">Золотая комната в золотом убранстве и круглым столом на 12 человек.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--greenhouse">
+            <span class="hall-capacity">ДО 100 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Оранжерея</span>
+              <span class="hall-description">Настоящая оранжерея с панорамными окнами, мягкими диванами.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--living-room">
+            <span class="hall-capacity">ДО 100 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Гостиная</span>
+              <span class="hall-description">Оригинальное по дизайну пространство со стеклянной стеной в сторону
+                бассейна.
+              </span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--loft">
+            <span class="hall-capacity">ДО 30 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Лофт</span>
+              <span class="hall-description">Зал в модном стиле лофт для индивидуальных мероприятий.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--nest">
+            <span class="hall-capacity">ДО 40 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Караоке зал «Гнездо»</span>
+              <span class="hall-description">Роскошный деревянный интерьер в стиле австрийского шале.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--hollow">
+            <span class="hall-capacity">ДО 20 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Караоке зал «Дупло»</span>
+              <span class="hall-description">Роскошный деревянный интерьер в стиле австрийского шале.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--cockatoo">
+            <span class="hall-capacity">ДО 50 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Dance караоке-бар «Какаду»</span>
+              <span class="hall-description">Модный стильный фьюжен дизайн.</span>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div class="halls-tabs">
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--big-hall">
+            <span class="hall-capacity">ДО 100 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Большой Банкетный</span>
+              <span class="hall-description">Роскошный банкетный зал в мягком классическом дизайне.</span>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div class="halls-tabs">
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--greenhouse">
+            <span class="hall-capacity">ДО 100 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Оранжерея</span>
+              <span class="hall-description">Настоящая оранжерея с панорамными окнами, мягкими диванами.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--living-room">
+            <span class="hall-capacity">ДО 100 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Гостиная</span>
+              <span class="hall-description">Оригинальное по дизайну пространство со стеклянной стеной в сторону
+                бассейна.
+              </span>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div class="halls-tabs">
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--gold-room">
+            <span class="hall-capacity">ДО 12 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Золотая Комната</span>
+              <span class="hall-description">Золотая комната в золотом убранстве и круглым столом на 12 человек.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--loft">
+            <span class="hall-capacity">ДО 30 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Зал Лофт</span>
+              <span class="hall-description">Зал в модном стиле лофт для индивидуальных мероприятий.</span>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div class="halls-tabs">
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--nest">
+            <span class="hall-capacity">ДО 40 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Караоке зал «Гнездо»</span>
+              <span class="hall-description">Роскошный деревянный интерьер в стиле австрийского шале.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--hollow">
+            <span class="hall-capacity">ДО 20 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Караоке зал «Дупло»</span>
+              <span class="hall-description">Роскошный деревянный интерьер в стиле австрийского шале.</span>
+            </div>
+          </a>
+          <a href="#" class="halls-tabs__tab halls-tabs__tab--cockatoo">
+            <span class="hall-capacity">ДО 50 ГОСТЕЙ</span>
+            <div>
+              <span class="hall-name">Dance караоке-бар «Какаду»</span>
+              <span class="hall-description">Модный стильный фьюжен дизайн.</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="delivery">
+      <div class="container">
+        <span class="wrap wrap--title">Доставка</span>
+        <span class="delivery-description">С другой стороны дальнейшее развитие различных форм деятельности позволяет
+          оценить значение форм развития.
+        </span>
+        <a href="#" class="btn btn--white">
+          <span>Посмотреть меню</span>
+        </a>
+      </div>
+    </div>
+    <div class="photo-reports">
+      <div class="container">
+        <div class="wrap wrap--title">
+          <span>Последние фотоотчеты</span>
+          <a href="#" class="btn btn--yellow photo-reports__btn">
+            <span>Все фотоотчеты</span>
+          </a>
+        </div>
+
+        <div class="photo-reports-full">
+          <div class="wrap wrap--mt40">
+            <a class="photo-reports__item photo-reports__item--item1" href="#">
+              <div>
+                <span class="report-date">31 мая</span>
+                <span class="report-description">День рождения Софии в стиле
+                  Гарри Поттера!</span>
+              </div>
+            </a>
+            <a class="photo-reports__item photo-reports__item--item2" href="#">
+              <div>
+                <span class="report-date">25 мая</span>
+                <span class="report-description">Выпускной начальной школы</span>
+              </div>
+            </a>
+            <a class="photo-reports__item photo-reports__item--item3" href="#">
+              <div>
+                <span class="report-date">9 мая</span>
+                <span class="report-description">Праздник</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="photo-reports__slider">
+          <div class="swiper-wrapper wrap wrap--mt40">
+            <a class="swiper-slide photo-reports__item photo-reports__item--item1" href="#">
+              <div>
+                <span class="report-date">31 мая</span>
+                <span class="report-description">День рождения Софии в стиле
+                  Гарри Поттера!</span>
+              </div>
+            </a>
+            <a class="swiper-slide photo-reports__item photo-reports__item--item2" href="#">
+              <div>
+                <span class="report-date">25 мая</span>
+                <span class="report-description">Выпускной начальной школы</span>
+              </div>
+            </a>
+            <a class="swiper-slide photo-reports__item photo-reports__item--item3" href="#">
+              <div>
+                <span class="report-date">9 мая</span>
+                <span class="report-description">Праздник</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="btn btn--yellow btn--yellow--mob">
+          <span>Все фотоотчеты</span>
+        </a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+
+
+          <img class="logo-bnb" src="./assets/img/icons/header/logobirdsandbees.svg" alt="BirdsAndBees">
+
+
+          <div class="footer-wrap__item">
+            <a class="btn btn--yellow" href="#">Забронировать</a>
+            <a class="request-call" href="#"><img class="request-call__ico" src="./assets/img/icons/footer/tel.svg">Заказать
+              звонок</a>
+          </div>
+
+          <div class="footer-wrap__item">
+            <a class="footer__numbers-phone" href="#">
+              <div class="first-number">7 (925) 225-38-38</div>
+              <div class="second-number">7 (495) 225-38-38</div>
+            </a>
+            <div class="footer-social">
+              <a class="footer-social__link footer-social__link--vk" href="#"><img
+                  src="./assets/img/icons/sidebar/social/vk.svg"></a>
+              <a class="footer-social__link footer-social__link--inst" href="#"><img
+                  src="./assets/img/icons/sidebar/social/inst.svg"></a>
+              <a class="footer-social__link footer-social__link--fb" href="#"><img
+                  src="./assets/img/icons/sidebar/social/fb.svg"></a>
+            </div>
+          </div>
+
+          <div class="footer-wrap__item">
+            <span class="footer-text">Подпишитесь на рассылку Птицы и Пчёлы и будьте в курсе всех новостей и
+              событий</span>
+            <div class="footer-subscribe">
+
+
+
+              <input type="text" size="25">
+              <span class="input-text">E-mail:</span>
+              <button class="footer-subscribe__btn"></button>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    <div class="under-footer">
+      <div class="container">
+        <div class="under-footer__wrap">
+          <span>© 2019 «Птицы и Пчёлы»</span>
+          <div class="under-footer__wrap">
+            <a class="under-footer__link" href="#">Политика конфиденциальности</a>
+            <a class="under-footer__link" href="#">Статьи</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/halls-tabs.min.js"></script>
+  <script src="./assets/js/swiper.min.js"></script>
+  <script src="./assets/js/sidebar-mob.min.js"></script>
+</body>
+
+</html>
